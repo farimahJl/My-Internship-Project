@@ -73,11 +73,11 @@ Some plots will be shows here and their meanings will be shortly discussed.
 
 The the most promissing is the Linear Regression second order which the variation and EBC prediction is shown as follows:
 
-![Regression2-Random Sampling](Visualization/Regression2-Random Sampling.png)
+
 
 Due to the fact that the main part of our data was unlabeled The Most dominan color, random sampling, and HAC with the use of KMeans, however, was found to be no value for this project.
 
-![most dominant_clusterplot](Visualization/most dominant_clusterplot.png)
+
  
  
  # Future
@@ -88,7 +88,7 @@ To effectively train a machine learning algorithm for beer image analysis, we re
 # Overview
 
 The flowchart below depicts a schematic overview of the created pipeline.
-![Flow Diagram](Visualization/Flow Diagram.png)
+
 
 The flowchart follows standard flowchart symbols with the describtion on it.
 
