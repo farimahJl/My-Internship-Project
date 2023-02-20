@@ -7,7 +7,7 @@
 2. [Data](#Data)
 3. [Installtions](#Installations)
 4. [Software](#Software)
-5. [Visualisations](#Visualisations)
+5. [Visualizations](#Visualizations)
 
 
 # Description
@@ -33,16 +33,71 @@ in the project paper.
  
 | Package                                                             | Version | Usage                                                         |
 |---------------------------------------------------------------------|---------|---------------------------------------------------------------|
-| [sklearn](https://scikit-learn.org/stable/supervised_learning.html) | 1.0.2   | Used to implement several  machine learning algorithms.       |
-| [scikit-image](https://scikit-learn.org/stable/supervised_learning.html)  | 0.18.3  | Used to implement several  machine learning algorithms. |
-| [Numpy](https://numpy.org/)                                         | 1.20.3  | Uses for several calculations                                 |
-| [seaborn](https://seaborn.pydata.org/whatsnew/v0.12.0.html)         | 0.11.2  | Uses for plots visualizations                                 |
-| [opencv-contrib-python](https://opencv.org/releases/)               | 4.6.0.66 | Uses to read images and transform them into matrixes         |
+| [sklearn](https://scikit-learn.org/stable/supervised_learning.html) | 1.0.2   | Used to implement several  machine learning algorithms. Regression,KMeans,HAC Clustering  |
+| [scikit-image](https://scikit-learn.org/stable/supervised_learning.html)  | 0.18.3  | Used for image processing, analysis, and computer vision tasks |
+| [Numpy](https://numpy.org/)                                         | 1.20.3  | Used for several calculations                                 |
+| [seaborn](https://seaborn.pydata.org/whatsnew/v0.12.0.html)         | 0.11.2  | Used for plots visualizations                                 |
+| [opencv-contrib-python](https://opencv.org/releases/)               | 4.6.0.66 | Used to read images and transform them into matrixes         |
 | [pandas](https://pandas.pydata.org/docs/)                           | 1.4.2   | Used to read data in the Preprocess module                    |
 | [pca](https://pypi.org/project/pca/)                                | 1.8.2   | Used to perform pca and construct the scree and bi plot       |
 | [pathlib](https://docs.python.org/3/library/pathlib.html)           | 2.3.6   | Used to write constructed plots to file given a specific path |
 | [matplotlib](https://matplotlib.org/)                               | 3.5.1   | Used to create a variety of plots                             |
 
 
+## Installation
+Install the packages with either conda or pip.
+
+conda:
+```bash
+  conda install <PACKAGE>=<VERSION>
+```
+
+pip
+```bash
+  pip install <PACKAGE>==<VERSION>
+```
+
+ 
+# Visualizations
+ 
+ 
+The use of filtering was found to be essential for this project to redeuce dimentionality and avoid unwanted data. 
+ 
+![Mask](My-Internship-Project/Vaisualization//Mask.png)
+
+ 
+The pipeline produces several plots aimed to find a corelation between different values and predict the beer type measuring the EBCs, Brightness, Grey Values.
+Some plots will be shows here and their meanings will be shortly discussed.
+
+
+The the most promissing is the Linear Regression second order which the variation and EBC prediction is shown as follows:
+
+![Regression Second Order](My-Internship-Project/Vaisualization/Regression2-Random Sampling.png)
+
+Due to the fact that the main part of our data was unlabeled The Most dominan color, random sampling, and HAC with the use of KMeans, however, was found to be no value for this project.
+
+![KMeans-Most Dominant Clustering](My-Internship-Project/Vaisualization/most dominant_clusterplot.png)
+ 
+ 
+ # Future
+
+To effectively train a machine learning algorithm for beer image analysis, we recommend following established best practices. Start by configuring the device and collecting a sufficient number of beer images with pre-determined EBC values. Use image processing scripts to learn patterns in the samples and generate additional simulated images for data augmentation. Extract relevant features from the beer images using brightness and grey values as independent variables, with known EBC values as the dependent variable. Create a regression equation to predict EBC values based on the features extracted from the beer images. For best results, use a 2nd order model of regression to function the regression equation and predict EBC values for a particular device configuration. Following these steps will improve the accuracy of the predictive model.
+
+
+# Overview
+
+The flowchart below depicts a schematic overview of the created pipeline.
+![pipeline](My-Internship-Project/Vaisualization/Flow Diagram.png)
+
+The flowchart follows standard flowchart symbols with the describtion on it.
+
+
+# Acknowledgements
+We would like to thank Dr. Jasper Bosman and S. Andreu Sanchez, MSc for their guidance during the course of the project. We would like
+to thank the UMCG for providing us with the opportunity to work on this project. 
+
+
+# License
+The project contains a MIT [license](LICENSE)
 
 
