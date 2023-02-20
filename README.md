@@ -1,5 +1,6 @@
 # My-Internship-Project
- SG Papertronic company   has developed a device called Beer-o-Meter,  that allows brewers to analyze and measure whether their beer is of good quality or not. This helps them optimize their beer production and lower their cost. The problem is that the data collected by brewers need to be cleaned up and processed before it can be analyzed.
+A feasibility study is conducted to determine whether a device called "Beer-o-meter”, that is specifically developed to measure beer characteristics, can accurately assess the type and quality of beer with the aid of machine learning algorithms 
+SG Papertronic company has developed a device called Beer-o-Meter,  that allows brewers to analyze and measure whether their beer is of good quality or not. This helps them optimize their beer production and lower their cost. The problem is that the data collected by brewers need to be cleaned up and processed before it can be analyzed.
 
 
 # Table of Contens
@@ -63,7 +64,7 @@ pip
  
 The use of filtering was found to be essential for this project to redeuce dimentionality and avoid unwanted data. 
  
-![Mask](My-Internship-Project/Vaisualization//Mask.png)
+![Mask](Visualization/Mask.png)
 
  
 The pipeline produces several plots aimed to find a corelation between different values and predict the beer type measuring the EBCs, Brightness, Grey Values.
@@ -72,11 +73,11 @@ Some plots will be shows here and their meanings will be shortly discussed.
 
 The the most promissing is the Linear Regression second order which the variation and EBC prediction is shown as follows:
 
-![Regression Second Order](My-Internship-Project/Vaisualization/Regression2-Random Sampling.png)
+![Regression Second Order](Visualization/Regression2-Random Sampling.png)
 
 Due to the fact that the main part of our data was unlabeled The Most dominan color, random sampling, and HAC with the use of KMeans, however, was found to be no value for this project.
 
-![KMeans-Most Dominant Clustering](My-Internship-Project/Vaisualization/most dominant_clusterplot.png)
+![KMeans-Most Dominant Clustering](Visualization/most dominant_clusterplot.png)
  
  
  # Future
@@ -87,15 +88,14 @@ To effectively train a machine learning algorithm for beer image analysis, we re
 # Overview
 
 The flowchart below depicts a schematic overview of the created pipeline.
-![pipeline](My-Internship-Project/Vaisualization/Flow Diagram.png)
+![pipeline](Visualization/Flow Diagram.png)
 
 The flowchart follows standard flowchart symbols with the describtion on it.
 
 
 # Acknowledgements
-We would like to thank Dr. Jasper Bosman and S. Andreu Sanchez, MSc for their guidance during the course of the project. We would like
-to thank the UMCG for providing us with the opportunity to work on this project. 
-
+I would like to thank my supervisor: Dr. Jasper Bosman and SGPapertronics Company Supervisors Dr. Macej Grajewski & Mr. Richard Rushby, for their guidance during the course of the project. I would like to thank Ms. Fenna Feenstra as my teacher who I got inspiration from her lessons and her Github. 
+https://github.com/fenna/
 
 # License
 The project contains a MIT [license](LICENSE)
