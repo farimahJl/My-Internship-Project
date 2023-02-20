@@ -70,14 +70,13 @@ The use of filtering was found to be essential for this project to redeuce dimen
 The pipeline produces several plots aimed to find a corelation between different values and predict the beer type measuring the EBCs, Brightness, Grey Values.
 Some plots will be shows here and their meanings will be shortly discussed.
 
-
 The the most promissing is the Linear Regression second order which the variation and EBC prediction is shown as follows:
 
-
+![Linear Regression](Visualization/Regression.png)
 
 Due to the fact that the main part of our data was unlabeled The Most dominan color, random sampling, and HAC with the use of KMeans, however, was found to be no value for this project.
 
-
+![Kmeans](Visualization/Kmeans.png)
  
  
  # Future
@@ -89,6 +88,7 @@ To effectively train a machine learning algorithm for beer image analysis, we re
 
 The flowchart below depicts a schematic overview of the created pipeline.
 
+![FlowDiagram](Visualization/FlowDiagram.png)
 
 The flowchart follows standard flowchart symbols with the describtion on it.
 
