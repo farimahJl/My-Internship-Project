@@ -20,7 +20,7 @@ Data has been collected by SGPapertronics company.
 
 - Data used in this project comes from a device called Beer-O-Meter which in the developed model of Beer-o-Meter, there is a camera installed which takes photo from some drops of beer on a special paper and the images used in this study are taken by that. The paper contains some enzymes that through some chemical test and measurements the amount alcohol content and other test can be declared. In this case we used only the images to find out about the appearance and type of the beer.  
 
-- Also, due to the lack of data, there was a need to generate and augment data. The sumilated data was generate through image libraries CV2 and image processing which can be be accessed through https://github.com/farimahJl/My-Internship-Project under the <dir> Code in the Data Augmentation notbook. 
+- Also, due to the lack of data, there was a need to generate and augment data. The sumilated data was generate through image libraries CV2 and image processing which can be be accessed through https://github.com/farimahJl/My-Internship-Project under the Code directory in the Data Augmentation notbook. 
  
  
 # Software Requirements
